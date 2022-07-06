@@ -70,7 +70,7 @@ const AdiestramientoCachorroHandler = {
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
-            .reprompt("¿hola? estoy impaciente de contarte más cosas sobre tu mascota")
+            .reprompt("Estoy impaciente de contarte más cosas sobre tu mascota")
             .getResponse();
     }
 };
