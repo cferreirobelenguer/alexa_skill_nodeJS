@@ -1,0 +1,91 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "todo sobre perros",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "stop",
+            "parar",
+            "para",
+            "adiós",
+            "hasta otra",
+            "adios",
+            "hasta luego"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "ayuda",
+            "soporte"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AlimentacionIntent",
+          "slots": [],
+          "samples": [
+            "alimentacion",
+            "alimentación",
+            "comida",
+            "nutrientes",
+            "pienso",
+            "piensos",
+            "nutrición"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "PeloIntent",
+          "slots": [],
+          "samples": [
+            "pelo",
+            "pelaje",
+            "cabello",
+            "cepillado",
+            "belleza",
+            "cuidado"
+          ]
+        },
+        {
+          "name": "EjercicioIntent",
+          "slots": [],
+          "samples": [
+            "ejercicio",
+            "ejercício",
+            "paseo",
+            "actividad",
+            "rutinas",
+            "deporte"
+          ]
+        },
+        {
+          "name": "AdiestramientoCachorro",
+          "slots": [],
+          "samples": [
+            "adiestramiento",
+            "educación",
+            "socialización",
+            "disciplina",
+            "educacion",
+            "enseñanza"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "8"
+}
